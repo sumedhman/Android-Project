@@ -3,7 +3,6 @@ package com.example.mycountrynameapiversion_two.adapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-//import android.widget.AdapterView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -18,7 +17,7 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.CountryV
     private ArrayList<CountryModel> countries;
 
 
-    public CountryAdapter(ArrayList<CountryModel> countriesList) {
+    public CountryAdapter(ArrayList<CountryModel> countries) {
         this.countries = countries;
     }
 

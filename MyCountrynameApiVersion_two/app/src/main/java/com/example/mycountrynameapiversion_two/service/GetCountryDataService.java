@@ -10,4 +10,5 @@ public interface GetCountryDataService {
       @GET("countries")  //end points
 
       Call<Result>  getResult();
+
 }

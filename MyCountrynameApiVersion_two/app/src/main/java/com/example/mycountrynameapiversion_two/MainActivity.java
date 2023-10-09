@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(result != null && result.getResult() != null){
                     countries = (ArrayList<CountryModel>) result.getResult();
+
                     viewData();
                     //advance for loop
                   /*  for(CountryModel c:countries){
